@@ -6,6 +6,7 @@
 body{
     margin: 0;
 }
+
 .landing-page{
     height: 100vh;
     background-color: #bae8e8;
@@ -85,3 +86,36 @@ nav a{
     margin: 20px 0;
 
  }
+
+ .clear-rate {
+    padding: var(--container-padding);
+ }
+
+#business{
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+}
+
+.clear-rate h3{
+display: flex;
+justify-content: center;
+padding: var(--container-padding);
+}
+
+th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+}
+
+td{
+    background-color: rgb(240, 240, 240);
+}
+
+th{
+    text-align: left;
+    background-color: #ddd;
+}
