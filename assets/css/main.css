@@ -119,3 +119,14 @@ th{
     text-align: left;
     background-color: #ddd;
 }
+
+.final{
+    background-color: var(--color-primary);
+    margin-top: 20px;
+
+}
+.final div{
+    color: #ffffff;
+    padding: 10px;
+    
+}
