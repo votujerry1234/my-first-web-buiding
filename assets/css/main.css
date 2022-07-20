@@ -51,8 +51,8 @@ nav a{
 
 
 #main-title{
-    font-size: 70px;
-    width: 500px;
+    font-size:clamp(24px, 10vw, 70px);
+   max-width: 500px;
     color: var(--color-primary);
 }
 
