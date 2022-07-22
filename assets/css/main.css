@@ -2,6 +2,7 @@
     --color-primary: #272343;
     --container-padding: 10px 80px;
     --color-primary-transparent: #27234375;
+    --color-primary-dark: #eeeeee;
 }
 
 body{
@@ -73,21 +74,46 @@ nav a{
  }
 
  .clear{
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-dark);
     display: flex;
     padding: var(--container-padding);
     /* justify-content: space-between; */
     color: #ffffff;
     gap: 100px;
-
-
+    padding-top: 25px;
  }
+
  .clear div{
     color: #ffffff;
     margin: 20px 0;
+    margin-top: 40px;
+    background-color: var(--color-primary);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+ }
+
+ .clear span{
+    font-size: 30px;
+    /* display: inline-block; */
+    height: 80px;
+    width: 80px;
+    background-color: var(--color-primary);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -39px;
+    left: 50%;
+transform: translateX(-50%);
 
  }
 
+ .clear h3{
+    margin-top: 30px;
+ }
  .clear-rate {
     padding: var(--container-padding);
     display: flex;
